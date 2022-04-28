@@ -1,1 +1,16 @@
-holaaaaaaaaaaaa
+git status :Nos permite conocer el estatus de sincronizacion de la rama remota y local ,rambien nos muestras si hay archivos modificacos y pendientes de sincronizar
+
+
+pasos para subir cambios:
+1.-Preparar (o hacer track/stage) de los archivos que queremos subir
+   --git add "<Nombre_Archivo"
+	*Nota:Para hacer "unstage" de un archivo usamos el comando git
+	retore -- stage "<Nombre_Archivo>"
+2.-Creamos un commit
+-Un commit es un conjunto de cambios con mensajes que los descriva
+-git commit -m "Mensaje"
+
+3.-Sincronizamos la rama remota con los cambios en la rama local
+ -git push
+
+
